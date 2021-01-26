@@ -1,7 +1,7 @@
 <?php
 session_start();
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Online Quiz - Quiz List</title>
@@ -36,12 +36,12 @@ echo "records updated";
   <table class="table table-striped">
 
  <tr>
-        <td height="26"><div align="left"><strong> Enter Test Name </strong></div></td>
+        <td height="26"><div  style="align:left"><strong> Enter Test Name </strong></div></td>
         <td>&nbsp;</td>
 	  <td><input class="form-control" value="<?php echo $res['test_name']; ?>" name="testname" type="text" id="testname"></td>
     </tr>
     <tr>
-      <td height="26"><div align="left"><strong>Enter Total Question </strong></div></td>
+      <td height="26"><div style="align:left"><strong>Enter Total Question </strong></div></td>
       <td>&nbsp;</td>
       <td><input class="form-control" value="<?php echo $res['total_que']; ?>" name="totque" type="text" id="totque"></td>
     </tr>

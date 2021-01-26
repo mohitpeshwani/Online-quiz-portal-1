@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <title>Admin Signup</title>
@@ -30,16 +30,16 @@ $query="insert into mst_admin(id,loginid,pass) values($id,'$lid','$pass')";
 //$rs=mysqli_query($con,$query);
 
 if ($conn->query($query) === TRUE) {
-  echo "<center><h1>New record created successfully</h1></center>";
-  echo "<center><h1 color=''><br><br><br><div class=head1>Your Login ID  $lid Created Sucessfully<h1></div><center>";
-  echo "<center><br><div class=head1><h1>Please Login using your Login ID to take Quiz</h1></div></center>";
-  echo "<center><br><div class=head1><a href=index.php>Login</a></div></center";
+  echo "<h1>New record created successfully</h1>";
+  echo "<h1 ><br><br><br><div class=head1>Your Login ID  $lid Created Sucessfully<h1></div>";
+  echo "<br><div class=head1><h1>Please Login using your Login ID to take Quiz</h1></div>";
+  echo "<br><div class=head1><a href=index.php>Login</a></div>";
   $subject="Registered Admin";
   mail($email,$subject,"You can create quiz now on quiz portal and having unique id :$id and password:$pass ");
 } 
 else {
   echo"<script> alert(' dublicate entry') </script>";
-  echo "<center><br><div class=head1><a href=index.php><h1>Please try again <br> login</h1></a></div></center>";
+  echo "<br><div class=head1><a href=index.php><h1>Please try again <br> login</h1></a></div>";
 }
   
   $conn->close();

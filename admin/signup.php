@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML >
 <html>
 <head>
 <title>New Admin signup </title>
@@ -80,13 +80,13 @@ function check()
 <?php
 include("header.php");
 ?>
- <table width="100%" border="0" class="TFtableCol">
+ <table width="100%"  class="TFtableCol">
    
    <tr>
      <td><form name="form1" method="post" action="signupadmin.php" onSubmit="return check();">
-       <center>
-		<img class="img-circle" src="login1.jpg"  width="240px" height="190px" border="1" />
-		</center>	<br>
+        
+		<img class="img-circle" src="login1.jpg"  width="240px" height="190px"  />
+		 	<br>
 			<table class=" table table-striped">
 		
           <tr>
@@ -111,7 +111,7 @@ include("header.php");
            <td><input class="form-control" name="email" type="text" id="email"></td>
          </tr>
            <td>&nbsp;</td>
-           <td align="center"><a href='signupadmin.php'><input class="btn btn-danger" type="submit" name="Submit" value="Signup" width=></a>
+           <td Style="align:center"><a href='signupadmin.php'><input class="btn btn-danger" type="submit" name="Submit" value="Signup" width=></a>
            </td>
          </tr>
        </table>

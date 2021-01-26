@@ -1,7 +1,7 @@
 <?php
 session_start();
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Online Quiz - Quiz List</title>
@@ -12,6 +12,7 @@ session_start();
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+
 <?php
 include("header.php");
 include("../database.php");

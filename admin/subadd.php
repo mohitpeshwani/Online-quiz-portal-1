@@ -51,7 +51,7 @@ return true;
 <form name="form1" method="post" onSubmit="return check();">
   <table class="table table-striped">>
     <tr>
-      <td width="45%" height="32"><div align="center"><strong>Enter Subject Name </strong></div></td>
+      <td width="45%" height="32"><div style="align:left"><strong>Enter Subject Name </strong></div></td>
       <td width="2%" height="5">  
       <td width="53%" height="32">
         <input class="form-control" name="subname" placeholder="enter language name" type="text" id="subname">

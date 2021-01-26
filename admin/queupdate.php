@@ -1,7 +1,7 @@
  <?php
 session_start();
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Online Quiz - Quiz List</title>
@@ -10,6 +10,13 @@ session_start();
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
 </head>
 <body>
+<style>
+img{
+	position:fixed;
+	left:50%;
+	right:50%;
+}
+</style>
 <?php
 include("header.php");
 include("../database.php");

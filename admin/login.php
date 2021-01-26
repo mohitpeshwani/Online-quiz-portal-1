@@ -10,8 +10,39 @@ error_reporting(1);
 <link href="../quiz.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
 </head>
-
+<style>
+h1 {
+  text-align: center;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+input {
+  text-align: center;
+}
+table{
+	text-align:center;
+}
+form{
+	margin-left: 50%;
+	margin-right:50%;
+	padding-top:2rem;
+	padding-left:3rem;
+	margin-top:3rem;
+}
+.center {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
 <body>
+
+
 
 <?php
 include("header.php");
