@@ -111,7 +111,7 @@ include("header.php");
            <td><input class="form-control" name="email" type="text" id="email"></td>
          </tr>
            <td>&nbsp;</td>
-           <td Style="align:center"><a href='signupadmin.php'><input class="btn btn-danger" type="submit" name="Submit" value="Signup" width=></a>
+           <td Style="text-align:center"><a href='signupadmin.php'><input class="btn btn-danger" type="submit" name="Submit" value="Signup" width=></a>
            </td>
          </tr>
        </table>

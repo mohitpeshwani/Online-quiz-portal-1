@@ -42,14 +42,14 @@ echo "records updated";
   <table class="table table-striped">
 
  <tr>
-        <td height="26"><div align="left"><strong> Enter Question </strong></div></td>
+        <td height="26"><div><strong> Enter Question </strong></div></td>
         <td>&nbsp;</td>
 	    <td><textarea class="form-control"name="addque" cols="60" rows="2" id="addque">
 		<?php echo $res['que_desc']; ?>
 		</textarea></td>
     </tr>
     <tr>
-      <td height="26"><div align="left"><strong>Enter Answer1 </strong></div></td>
+      <td height="26"><div><strong>Enter Answer1 </strong></div></td>
       <td>&nbsp;</td>
       <td><input class="form-control"value="<?php echo $res['ans1']; ?>" name="ans1" type="text" id="ans1" size="85" maxlength="85"></td>
     </tr>

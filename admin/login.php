@@ -2,7 +2,7 @@
 session_start();
 error_reporting(1);
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <title>Adminstrative AreaOnline Quiz </title>
@@ -72,7 +72,7 @@ else if(!isset($_SESSION[alogin]))
 }
 
 		echo"<h1 class='text-center bg-danger'>Welcome to Admistrative Area</h1>";	
-		echo "<center><img src='images/10.jpg'  height='auto' width='auto'></center>" ;
+		echo "  <img src='images/10.jpg'  height='auto' width='auto'></center>" ;
 
 		
 
