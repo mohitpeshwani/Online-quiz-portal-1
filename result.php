@@ -1,14 +1,33 @@
 <?php
 session_start();
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Online Quiz  - Result </title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link href="quiz.css" rel="stylesheet" type="text/css">
 </head>
-
+<style>
+h1 {
+  text-align: center;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+input {
+  text-align: center;
+}
+table{
+	text-align:center;
+}
+th,tr{
+	text-align:center;
+}
+</style>
 <body>
 <?php
 include("header.php");

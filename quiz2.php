@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Online Quiz</title>
@@ -37,7 +37,7 @@ width=500
 height=68>
 <param name=movie value=image/fence.swf>
 <param name=quality value=high>
-<param name=BGCOLOR value=#000000>
+<param name=BGCOLOR value="#000000">
 <param name=SCALE value=showall>
 <param name=wmode value=transparent> 
 <embed src=image/fence.swf

@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <title>New user signup </title>
@@ -119,16 +119,16 @@ return false;
 <?php
 include("header.php");
 ?>
- <table width="100%" border="0" class="TFtableCol">
+ <table width="100%" style="border:0px" class="TFtableCol">
    <tr>
      <td width="132" rowspan="2" valign="top"><span class="style8"><img src="images/connected_multiple_big.jpg" width="131" height="155"></span></td>
      <h1 class="text-center bg-primary">REGISTRATION PAGE</h1>
    </tr>
    <tr>
      <td><form name="form1" method="post" action="signupuser.php" onSubmit="return check();">
-       <center>
-		<img class="img-circle" src="2.jpg"  width="240px" height="190px" border="0" />
-		</center>	<br>
+    
+		<img class="img-circle" src="2.jpg"  width="240px" height="190px" style="border:0; align:center"/>
+			<br>
 			<table class=" table table-striped">
 		
          <tr>
